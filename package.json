@@ -1,0 +1,15 @@
+{
+  "name": "emscripten-work-options-vite-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd wasm-module && make && cd .. && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "5.4.1"
+  }
+}
